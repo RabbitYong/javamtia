@@ -297,7 +297,7 @@ public class TestRunner {
         try {
           task.run();
         } finally {
-          FLOW_CONTROL.release(1);
+          //FLOW_CONTROL.release(1);
           latch.countDown();
         }
 
